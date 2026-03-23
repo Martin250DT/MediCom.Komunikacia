@@ -1,0 +1,16 @@
+<Application x:Class="MediCom.Komunikacia.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="BackgroundBrush" Color="#FFEDE5DD" />
+        <SolidColorBrush x:Key="SidebarBrush" Color="#FF111B21" />
+        <SolidColorBrush x:Key="HeaderBrush" Color="#FF202C33" />
+        <SolidColorBrush x:Key="IncomingBubbleBrush" Color="#FFFFFFFF" />
+        <SolidColorBrush x:Key="OutgoingBubbleBrush" Color="#FFD9FDD3" />
+        <SolidColorBrush x:Key="SurfaceBrush" Color="#FF0B141A" />
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#FF111B21" />
+        </Style>
+    </Application.Resources>
+</Application>
